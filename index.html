@@ -1,35 +1,312 @@
 <!DOCTYPE html>
-<html>
+<html lang="vi">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Portfolio - Lê Quang Vinh</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Segoe UI,Tahoma,Geneva,Verdana,sans-serif;
+}
+
+body{
+    background:#f5f7fa;
+    color:#333;
+    line-height:1.7;
+}
+
+header{
+    background:#0f766e;
+    color:white;
+    text-align:center;
+    padding:50px 20px;
+}
+
+header h1{
+    font-size:40px;
+}
+
+header p{
+    margin-top:10px;
+}
+
+nav{
+    background:white;
+    position:sticky;
+    top:0;
+    box-shadow:0 2px 10px rgba(0,0,0,.1);
+    z-index:100;
+}
+
+nav ul{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    list-style:none;
+}
+
+nav li{
+    margin:10px;
+}
+
+nav a{
+    text-decoration:none;
+    color:#0f766e;
+    font-weight:bold;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+section{
+    padding:50px 0;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    margin-top:20px;
+    border-radius:15px;
+    box-shadow:0 2px 10px rgba(0,0,0,.08);
+}
+
+h2{
+    color:#0f766e;
+    margin-bottom:15px;
+}
+
+h3{
+    margin-bottom:10px;
+}
+
+ul{
+    margin-left:20px;
+}
+
+.project{
+    margin-top:25px;
+}
+
+footer{
+    background:#0f766e;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:40px;
+}
+
+.badge{
+    display:inline-block;
+    background:#0f766e;
+    color:white;
+    padding:5px 12px;
+    border-radius:20px;
+    margin:5px;
+}
+
+img{
+    max-width:100%;
+    border-radius:10px;
+    margin-top:10px;
+}
+</style>
 </head>
 
 <body>
 
-<h1>Portfolio môn Nhập môn Công nghệ số</h1>
+<header>
+<h1>Portfolio Môn Nhập môn Công nghệ số</h1>
+<p>Lê Quang Vinh - MSSV: 25118090</p>
+</header>
 
-<hr>
+<nav>
+<ul>
+<li><a href="#gioithieu">Giới thiệu</a></li>
+<li><a href="#duan">Dự án</a></li>
+<li><a href="#tongket">Tổng kết</a></li>
+</ul>
+</nav>
 
-<h2>Thông tin sinh viên</h2>
+<div class="container">
 
-<p>Họ tên: Lê Quang Vinh</p>
-<p>MSSV: 25118090</p>
+<section id="gioithieu">
 
-<h2>Danh sách bài tập</h2>
+<h2>Giới thiệu</h2>
+
+<div class="card">
+
+<p><strong>Họ và tên:</strong> Lê Quang Vinh</p>
+<p><strong>MSSV:</strong> 25118090</p>
+<p><strong>Lớp:</strong> ESCT – E252049</p>
+
+<br>
+
+<p>
+Portfolio này được xây dựng nhằm tổng hợp các bài tập đã hoàn thành trong học phần
+Nhập môn Công nghệ số, đồng thời thể hiện quá trình học tập và phát triển các kỹ năng số.
+</p>
+
+<br>
+
+<span class="badge">Công nghệ số</span>
+<span class="badge">AI</span>
+<span class="badge">Học thuật</span>
+<span class="badge">Portfolio</span>
+
+</div>
+
+</section>
+
+<section id="duan">
+
+<h2>Dự án & Bài tập</h2>
+
+<div class="card project">
+<h3>Bài 1 - Máy tính và thiết bị ngoại vi</h3>
+
+<p><strong>Mục tiêu:</strong></p>
+<p>Thực hiện các thao tác quản lý tệp tin và thư mục.</p>
+
+<p><strong>Nội dung:</strong></p>
+<ul>
+<li>Tạo thư mục</li>
+<li>Đổi tên thư mục</li>
+<li>Sao chép dữ liệu</li>
+<li>Tổ chức cấu trúc lưu trữ</li>
+</ul>
+
+<p><strong>Minh chứng:</strong></p>
+<p>Chèn ảnh chụp màn hình hoặc file PDF tại đây.</p>
+</div>
+
+<div class="card project">
+<h3>Bài 2 - Khai thác dữ liệu và thông tin</h3>
+
+<p><strong>Mục tiêu:</strong></p>
+<p>Tìm kiếm và đánh giá thông tin học thuật.</p>
 
 <ul>
-<li>Bài 1</li>
-<li>Bài 2</li>
-<li>Bài 3</li>
-<li>Bài 4</li>
-<li>Bài 5</li>
-<li>Bài 6</li>
+<li>Google Scholar</li>
+<li>Semantic Scholar</li>
+<li>Elicit</li>
 </ul>
+
+<p><strong>Kết quả:</strong></p>
+<p>Thu thập và đánh giá nguồn thông tin đáng tin cậy phục vụ nghiên cứu.</p>
+</div>
+
+<div class="card project">
+<h3>Bài 3 - Tổng quan về Trí tuệ nhân tạo</h3>
+
+<p><strong>Mục tiêu:</strong></p>
+<p>Tìm hiểu cách xây dựng Prompt hiệu quả.</p>
+
+<p><strong>So sánh:</strong></p>
+
+<ul>
+<li>Prompt ban đầu</li>
+<li>Prompt cải tiến</li>
+<li>Đánh giá chất lượng đầu ra</li>
+</ul>
+
+</div>
+
+<div class="card project">
+<h3>Bài 4 - Giao tiếp và hợp tác trong môi trường số</h3>
+
+<p><strong>Công cụ sử dụng:</strong></p>
+
+<ul>
+<li>Google Docs</li>
+<li>Google Drive</li>
+<li>Microsoft Teams</li>
+</ul>
+
+<p>Trình bày quá trình cộng tác và quản lý dự án nhóm.</p>
+</div>
+
+<div class="card project">
+<h3>Bài 5 - Sáng tạo nội dung số</h3>
+
+<p><strong>Mục tiêu:</strong></p>
+
+<p>Sử dụng AI hỗ trợ sáng tạo nội dung.</p>
+
+<ul>
+<li>ChatGPT</li>
+<li>Canva</li>
+<li>Công cụ AI khác</li>
+</ul>
+
+<p>Đính kèm sản phẩm hoàn chỉnh tại đây.</p>
+</div>
+
+<div class="card project">
+<h3>Bài 6 - Sử dụng AI có trách nhiệm trong học tập và nghiên cứu</h3>
+
+<p><strong>Nội dung:</strong></p>
+
+<ul>
+<li>Vai trò của AI trong giáo dục</li>
+<li>Lợi ích và hạn chế</li>
+<li>Liêm chính học thuật</li>
+<li>Nguyên tắc sử dụng AI có trách nhiệm</li>
+</ul>
+
+<p><strong>Nguyên tắc cá nhân:</strong></p>
+
+<ol>
+<li>Kiểm tra thông tin do AI cung cấp.</li>
+<li>Không sao chép nguyên văn.</li>
+<li>Trích dẫn nguồn đầy đủ.</li>
+<li>Sử dụng AI như công cụ hỗ trợ.</li>
+</ol>
+
+</div>
+
+</section>
+
+<section id="tongket">
 
 <h2>Tổng kết</h2>
 
-<p>Portfolio học phần Nhập môn Công nghệ số.</p>
+<div class="card">
+
+<p>
+Thông qua Portfolio này, tôi đã hệ thống lại toàn bộ kiến thức đã học trong môn
+Nhập môn Công nghệ số và nâng cao kỹ năng sử dụng các công cụ công nghệ trong học tập.
+</p>
+
+<br>
+
+<h3>Kiến thức đạt được</h3>
+
+<ul>
+<li>Quản lý dữ liệu số</li>
+<li>Tìm kiếm thông tin học thuật</li>
+<li>Sử dụng AI hiệu quả</li>
+<li>Làm việc nhóm trực tuyến</li>
+<li>Sáng tạo nội dung số</li>
+<li>Liêm chính học thuật</li>
+</ul>
+
+</div>
+
+</section>
+
+</div>
+
+<footer>
+© 2026 - Portfolio môn Nhập môn Công nghệ số | Lê Quang Vinh
+</footer>
 
 </body>
 </html>
+
